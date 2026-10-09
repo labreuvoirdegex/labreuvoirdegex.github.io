@@ -12,7 +12,7 @@ L'abreuvoir est un petit espace culturel. Vous pouvez nous trouver à Gex, à la
 
  L'abreuvoir n'est pas encore ouvert.  Si vous voulez être au courant de notre progrès, vous pouvez suivre notre  compte [instagram](https://www.instagram.com/abreuvoir.gex){:target="_blank"}.
 
- Un premier concert de CELA aura lieu le 9 Octobre 2026, dans le cadre du festival [Bandapart](https://www.leprogramme.ch/concerts/cela/gex/les-ateliers-de-gex/jazzcontreband-2026).
+ Un premier concert de CELA aura lieu le 23 Octobre 2026, dans le cadre du festival [Bandapart](https://www.leprogramme.ch/concerts/cela/gex/les-ateliers-de-gex/jazzcontreband-2026).
  
 
 
