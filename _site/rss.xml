@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+	<channel>
+		<title>L&apos;abreuvoir | Gex</title>
+		<generator>(c) Chulapa Jekyll Theme RSS generator</generator>
+		<link>http://localhost:4000/</link>
+		<description>L&apos;abreuvoir de Gex</description>
+		<language>en-US</language>
+		<copyright>(c) 2026, Joan Llobera</copyright>	
+		<pubDate>Fri, 09 Oct 2026 12:19:26 +0200</pubDate>
+		<lastBuildDate>Fri, 09 Oct 2026 12:19:26 +0200</lastBuildDate>
+		<category>blog</category>
+		<ttl>60</ttl>
+		<atom:link href="http://localhost:4000/rss.xml" rel="self" type="application/rss+xml" />
+		<image>
+			<title>L&apos;abreuvoir | Gex</title>
+			<url></url>
+			<link>http://localhost:4000/</link>
+			<description>L&apos;abreuvoir de Gex</description>
+		</image><item>
+			<title>Everything in the right place</title>
+			<description>
+				<![CDATA[	
+ 				<h3>Moi je voudrais bien</h3>
+    		<p>1 min.</p>
+				<div><p>radiohead is nice</p>
+</div>
+				]]>
+			</description>
+			<link>http://localhost:4000/20260610_the-right-place/</link>
+			<category>posts</category>
+		    <category>musique</category><guid isPermaLink="true">http://localhost:4000/20260610_the-right-place/</guid>
+      <pubDate>Wed, 10 Jun 2026 00:00:00 +0200</pubDate>
+		</item><item>
+			<title>Dans mon jardin</title>
+			<description>
+				<![CDATA[	
+ 				<h3>Moi je voudrais bien</h3>
+    		<p>1 min.</p>
+				<div><p>Moi je voudrais bien qu’il y ait une fleur dans mon jardin</p>
+</div>
+				]]>
+			</description>
+			<link>http://localhost:4000/20260510_dans-mon-jardin/</link>
+			<category>posts</category>
+		    <category>musique</category><guid isPermaLink="true">http://localhost:4000/20260510_dans-mon-jardin/</guid>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0200</pubDate>
+		</item><item>
+			<title>Exposition</title>
+			<description>
+				<![CDATA[	
+ 				<h3>Notre plan d’expositions</h3>
+    		<p>1 min.</p>
+				<div><p>On va ouvrir une expo le 1er mars 2026. Venez nombreux!</p>
+</div>
+				]]>
+			</description>
+			<link>http://localhost:4000/20251202_art/</link>
+			<category>posts</category>
+		    <guid isPermaLink="true">http://localhost:4000/20251202_art/</guid>
+      <pubDate>Tue, 02 Dec 2025 00:00:00 +0100</pubDate>
+		</item><item>
+			<title>Premier Concert</title>
+			<description>
+				<![CDATA[	
+ 				<h3>Notre premier concert</h3>
+    		<p>1 min.</p>
+				<div><p>On n’a pas encore joué de musique en public, mais on en a prévu de faire ceci dès que l’espace ouvre. Au menu:</p>
+
+<blockquote>
+  <p>Samba e amor - Chico Buarque</p>
+
+  <p>Vampire - Olivia Rodrigo</p>
+</blockquote>
+</div>
+				]]>
+			</description>
+			<link>http://localhost:4000/20250913_premier-concert/</link>
+			<category>posts</category>
+		    <category>downtown</category><category>musique</category><media:title type="html"><![CDATA[Premier Concert ]]></media:title>
+      <media:content url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Well_Court%2C_Dean_Village%2C_Edinburgh_%2844485996381%29.jpg/800px-Well_Court%2C_Dean_Village%2C_Edinburgh_%2844485996381%29.jpg" medium="image"/>
+      <media:thumbnail url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Well_Court%2C_Dean_Village%2C_Edinburgh_%2844485996381%29.jpg/800px-Well_Court%2C_Dean_Village%2C_Edinburgh_%2844485996381%29.jpg" /><guid isPermaLink="true">http://localhost:4000/20250913_premier-concert/</guid>
+      <pubDate>Sat, 13 Sep 2025 00:00:00 +0200</pubDate>
+		</item><item>
+			<title>Tous les matins du monde</title>
+			<description>
+				<![CDATA[	
+ 				<h3>Le quatour Casals est venu jouer, c’était genial</h3>
+    		<p>1 min.</p>
+				<div><p>C’était super!</p>
+</div>
+				]]>
+			</description>
+			<link>http://localhost:4000/20250910_tous-les-matins-du-monde/</link>
+			<category>posts</category>
+		    <category>musique</category><guid isPermaLink="true">http://localhost:4000/20250910_tous-les-matins-du-monde/</guid>
+      <pubDate>Wed, 10 Sep 2025 00:00:00 +0200</pubDate>
+		</item></channel>
+</rss>

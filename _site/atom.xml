@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" >
+	<generator uri="https://dieghernan.github.io/chulapa" version="1.0.0">Chulapa</generator>
+	<link href="http://localhost:4000/atom.xml" rel="self" type="application/atom+xml" />
+	<link href="http://localhost:4000/" rel="alternate" type="text/html" />
+	<updated>2026-10-09T12:19:26+02:00</updated>
+	<id>http://localhost:4000/atom.xml</id>
+	<title>L'abreuvoir | Gex</title>
+	<subtitle>Gex</subtitle>
+	<author>
+		<name>Joan Llobera</name>
+					
+	</author>
+	<rights>(c) 2026, Joan Llobera</rights>
+	<icon>http://localhost:4000/assets/pics/house-solid-full.svg</icon>
+	<logo></logo><entry>
+		<title type="html">Everything in the right place</title>
+		<link href="http://localhost:4000/20260610_the-right-place/" rel="alternate" type="text/html" title="Everything in the right place"/>
+		<published>2026-06-10T00:00:00+02:00</published>
+		<updated>2026-06-10T00:00:00+02:00</updated>
+		<id>http://localhost:4000/20260610_the-right-place/</id>
+		<content type="html" xml:base="http://localhost:4000/20260610_the-right-place/">
+		
+		
+		&lt;h3&gt;Moi je voudrais bien&lt;/h3&gt;
+		
+  		
+	&lt;p&gt;1 min.&lt;/p&gt;
+			&lt;p&gt;radiohead is nice&lt;/p&gt;
+
+		</content>
+		
+		<author>
+			<name></name></author>
+		<summary type="html">&lt;p&gt;radiohead is nice&lt;/p&gt;
+</summary>
+		<category term="posts"/>
+		<category term="musique"/>
+	</entry><entry>
+		<title type="html">Dans mon jardin</title>
+		<link href="http://localhost:4000/20260510_dans-mon-jardin/" rel="alternate" type="text/html" title="Dans mon jardin"/>
+		<published>2026-05-10T00:00:00+02:00</published>
+		<updated>2026-05-10T00:00:00+02:00</updated>
+		<id>http://localhost:4000/20260510_dans-mon-jardin/</id>
+		<content type="html" xml:base="http://localhost:4000/20260510_dans-mon-jardin/">
+		
+		
+		&lt;h3&gt;Moi je voudrais bien&lt;/h3&gt;
+		
+  		
+	&lt;p&gt;1 min.&lt;/p&gt;
+			&lt;p&gt;Moi je voudrais bien qu’il y ait une fleur dans mon jardin&lt;/p&gt;
+
+		</content>
+		
+		<author>
+			<name></name></author>
+		<summary type="html">&lt;p&gt;Moi je voudrais bien qu’il y ait une fleur dans mon jardin&lt;/p&gt;
+</summary>
+		<category term="posts"/>
+		<category term="musique"/>
+	</entry><entry>
+		<title type="html">Exposition</title>
+		<link href="http://localhost:4000/20251202_art/" rel="alternate" type="text/html" title="Exposition"/>
+		<published>2025-12-02T00:00:00+01:00</published>
+		<updated>2025-12-02T00:00:00+01:00</updated>
+		<id>http://localhost:4000/20251202_art/</id>
+		<content type="html" xml:base="http://localhost:4000/20251202_art/">
+		
+		
+		&lt;h3&gt;Notre plan d’expositions&lt;/h3&gt;
+		
+  		
+	&lt;p&gt;1 min.&lt;/p&gt;
+			&lt;p&gt;On va ouvrir une expo le 1er mars 2026. Venez nombreux!&lt;/p&gt;
+
+		</content>
+		
+		<author>
+			<name></name></author>
+		<summary type="html">&lt;p&gt;On va ouvrir une expo le 1er mars 2026. Venez nombreux!&lt;/p&gt;
+</summary>
+		<category term="posts"/>
+		
+	</entry><entry>
+		<title type="html">Premier Concert</title>
+		<link href="http://localhost:4000/20250913_premier-concert/" rel="alternate" type="text/html" title="Premier Concert"/>
+		<published>2025-09-13T00:00:00+02:00</published>
+		<updated>2025-09-13T00:00:00+02:00</updated>
+		<id>http://localhost:4000/20250913_premier-concert/</id>
+		<content type="html" xml:base="http://localhost:4000/20250913_premier-concert/">
+		
+		
+		&lt;h3&gt;Notre premier concert&lt;/h3&gt;
+		
+  		
+			&lt;img src=&#39;https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Well_Court%2C_Dean_Village%2C_Edinburgh_%2844485996381%29.jpg/800px-Well_Court%2C_Dean_Village%2C_Edinburgh_%2844485996381%29.jpg&#39; &gt;
+			
+	&lt;p&gt;1 min.&lt;/p&gt;
+			&lt;p&gt;On n’a pas encore joué de musique en public, mais on en a prévu de faire ceci dès que l’espace ouvre. Au menu:&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Samba e amor - Chico Buarque&lt;/p&gt;
+
+  &lt;p&gt;Vampire - Olivia Rodrigo&lt;/p&gt;
+&lt;/blockquote&gt;
+
+		</content>
+		
+		<author>
+			<name></name></author>
+		<summary type="html">&lt;p&gt;On n’a pas encore joué de musique en public, mais on en a prévu de faire ceci dès que l’espace ouvre. Au menu:&lt;/p&gt;
+</summary>
+		<category term="posts"/>
+		<category term="downtown"/><category term="musique"/>
+	</entry><entry>
+		<title type="html">Tous les matins du monde</title>
+		<link href="http://localhost:4000/20250910_tous-les-matins-du-monde/" rel="alternate" type="text/html" title="Tous les matins du monde"/>
+		<published>2025-09-10T00:00:00+02:00</published>
+		<updated>2025-09-10T00:00:00+02:00</updated>
+		<id>http://localhost:4000/20250910_tous-les-matins-du-monde/</id>
+		<content type="html" xml:base="http://localhost:4000/20250910_tous-les-matins-du-monde/">
+		
+		
+		&lt;h3&gt;Le quatour Casals est venu jouer, c’était genial&lt;/h3&gt;
+		
+  		
+	&lt;p&gt;1 min.&lt;/p&gt;
+			&lt;p&gt;C’était super!&lt;/p&gt;
+
+		</content>
+		
+		<author>
+			<name></name></author>
+		<summary type="html">&lt;p&gt;C’était super!&lt;/p&gt;
+</summary>
+		<category term="posts"/>
+		<category term="musique"/>
+	</entry></feed>

@@ -1,0 +1,14 @@
+---
+---
+@charset "utf-8";
+// Your custom css /scss here
+
+h1,h2,h3,h4,h5,h6 {
+    -webkit-font-feature-settings: "liga", "dlig";
+    -moz-font-feature-settings: "liga=1, dlig=1";
+    -moz-font-feature-settings: "liga", "dlig";
+    -ms-font-feature-settings: "liga", "dlig";
+    -o-font-feature-settings: "liga", "dlig";
+    font-feature-settings: "liga", "dlig";
+    text-rendering: optimizeLegibility;
+}
