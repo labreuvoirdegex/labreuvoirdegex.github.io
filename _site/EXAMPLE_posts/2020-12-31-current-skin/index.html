@@ -2,11 +2,11 @@
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
-    <!-- Chulapa Jekyll Theme - v2.1.0 -->
+    <!-- Chulapa Jekyll Theme - v2.2.1 (development) -->
     <!-- MIT License -->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2026-10-09 -->
+    <!-- Page build 2026-11-02 -->
     <!-- Jekyll Version 4.4.1 -->
     <!-- Google structured data -->
     <script type="application/ld+json">
@@ -14,16 +14,21 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "@id": "http://localhost:4000/EXAMPLE_posts/2020-12-31-current-skin/",
+        "isPartOf": {"@id": "http://localhost:4000/#website"},
+        "breadcrumb": {"@id": "http://localhost:4000/EXAMPLE_posts/2020-12-31-current-skin/#breadcrumb"},
         "name": "Current skin",
         "description": "Showing al the different Bootstrap components available - This is a demo page showing the different components of Bootstrap and how they look on this site under the current configuration.",
+        "inLanguage": "en-US",
         "headline": "Current skin",
         "image": "https://picsum.photos/id/1018/2000/2000",
         "author": {
           "@type": "Person",
+          "@id": "http://localhost:4000/#author",
           "name": "Joan Llobera"
         },
         "publisher": {
           "@type": "Organization",
+          "@id": "http://localhost:4000/#publisher",
           "name": "Joan Llobera",
           "url": "http://localhost:4000/",
           "logo": {
@@ -58,6 +63,7 @@
       {
         "@context": "https://schema.org",
         "@type": "Person",
+        "@id": "http://localhost:4000/#author",
         "homeLocation": {
           "@type": "Place",
           "name": "Gex, France"
@@ -65,6 +71,16 @@
         "description": "Publisher",
         "name": "Joan Llobera",
         "url": "http://localhost:4000/"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "http://localhost:4000/#website",
+        "url": "http://localhost:4000/",
+        "name": "L'abreuvoir",
+        "publisher": {"@id": "http://localhost:4000/#publisher"}
       }
     </script>
     <title>Current skin | L’abreuvoir</title>
@@ -91,7 +107,7 @@
     <!-- Twitter/X Cards -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:description" content="Showing al the different Bootstrap components available - This is a demo page showing the different components of Bootstrap and how they look on this site under the current configuration.">
-    <!-- start custom head snippets -->
+<!-- start custom head snippets -->
 <!-- this script is inserted before the css stylesheet -->
 <!-- end custom head snippets -->
     <!-- CSS -->
@@ -109,7 +125,7 @@
     <link id="csshigh" rel="stylesheet" href="http://localhost:4000/assets/css/highlighter.css" >
     <!-- Custom css -->
     <link rel="stylesheet" href="http://localhost:4000/assets/css/custom.css" >
-    <!-- start custom head snippets -->
+<!-- start custom head snippets -->
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <!-- end custom head snippets -->
 </head>
@@ -131,21 +147,23 @@
 						<a class="nav-link " href="http://localhost:4000/search">
 							<span class="d-md-none p-0 pr-1">Search</span><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search</span>
 						</a>
-					</li></ul>
+					</li>
+			</ul>
 			</div></div>
 </nav>
 			<div id="chulapa-content" tabindex="-1"></div><div class="h-entry d-flex flex-column flex-fill">
     <a class="u-url d-none" href="http://localhost:4000/EXAMPLE_posts/2020-12-31-current-skin/">Invisible link to canonical for Microformats</a>
+	<main class="d-flex flex-column flex-fill">
 	<header class="d-flex align-items-center hero-chulapa-image" style="background-image: linear-gradient(rgba(0, 0, 0, 0.15), rgba(0, 0, 0, 0.7)), url('https://picsum.photos/id/1018/2000/2000')"><div class="container-lg py-4">
    <h1 class="p-name">Current skin</h1><hr class="my-3">
    <p class="chulapa-subtitle p-summary">Showing al the different Bootstrap components available</p>
  </div>
 </header>
-	<main class="container-lg pb-3 flex-fill">
+	<div class="container-lg pb-3 flex-fill">
 		<div class="row pt-2">
-			<aside class="col-lg-2 mt-lg-3 small"></aside>
-			<article id="maincontent" class="col-lg-8 mt-3 e-content">
-			<p>This is a demo page showing the different components of Bootstrap and how they look on this site under the current configuration.</p>
+			<div class="col-lg-2 mt-lg-3 small"></div>
+			<article id="maincontent" class="col-lg-8 mt-3">
+			<div class="e-content"><p>This is a demo page showing the different components of Bootstrap and how they look on this site under the current configuration.</p>
 <!-- snippets/bootstrapdemo.html -->
 <!-- Taken from Bootswatch: Free themes for Bootstrap  https://bootswatch.com/ -->
 <style>
@@ -193,11 +211,15 @@
      <div class="bs-component">
         <!-- Chulapa classic navbar expanding in lg or above --><nav class="navbar navbar-expand-lg sticky-top navbar-chulapa border border-light my-2">
          <div class="container-fluid mx-md-2">
-            <a class="navbar-brand font-weight-bold" href="http://localhost:4000/">Default</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand font-weight-bold" href="http://localhost:4000/">Default</a> <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarDemoToggler" aria-controls="navbarDemoToggler" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
-           <div class="collapse navbar-collapse" id="navbarToggler">
-             <ul class="navbar-nav ml-auto"><li class="nav-item">
+           <div class="collapse navbar-collapse" id="navbarDemoToggler">
+             <ul class="navbar-nav ml-auto">
+                           <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span>
+                </a>
+             </li><li class="nav-item">
                   <a class="nav-link " href=""></a>
                </li><li class="nav-item">
                   <a class="nav-link " href=""></a>
@@ -209,8 +231,20 @@
                     <i class="fa fa-search" aria-hidden="true"></i>
                     <span class="sr-only">Search</span>
                   </a>
-               </li></ul>
-           </div></div>
+               </li><li class="nav-item dropdown chulapa-theme-selector">
+  <button type="button" class="nav-link dropdown-toggle chulapa-theme-toggle" id="chulapa-theme-demo-dark" data-toggle="dropdown" aria-expanded="false" aria-label="Color theme: Light" title="Color theme: Light">
+    <i class="fas fa-sun" aria-hidden="true"></i>
+    <span class="chulapa-theme-label">Light</span>
+  </button>
+ <div class="dropdown-menu dropdown-menu-right" role="group" aria-labelledby="chulapa-theme-demo-dark">
+    <button type="button" class="dropdown-item" data-theme-mode="light" aria-pressed="true"><i class="fas fa-sun mr-2" aria-hidden="true"></i>Light</button>
+    <button type="button" class="dropdown-item" data-theme-mode="dark" aria-pressed="false"><i class="fas fa-moon mr-2" aria-hidden="true"></i>Dark</button>
+    <button type="button" class="dropdown-item" data-theme-mode="auto" aria-pressed="false"><i class="fa fa-adjust mr-2" aria-hidden="true"></i>Auto</button>
+ </div>
+</li>
+               </ul>
+           </div>
+         </div>
        </nav>
        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
           <a class="navbar-brand" href="#">Navbar</a>
@@ -1683,25 +1717,27 @@
 <h2 id="chulapa-comp">
   <span class="chulapa">Chulapa</span> components
 </h2>
-</article>
+</div>
+			</article>
 		</div>
+	</div>
 	</main></div>
 <!-- Footer -->
- <footer class="footer-chulapa text-center mt-0 pt-3">
-   <div class="container">
-     <div class="row">
-       <div class="col-xl-10 offset-xl-1">
+  <footer class="footer-chulapa text-center mt-0 pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-10 offset-xl-1">
         	<p class="chulapa-footer-brand"><!-- p class="mt-2 mb-3">© 2026 Llobera Costa</p -->
           <!-- Do not remove this in order to give  attributions -->
           <!-- p class="chulapa-footer-brand">Powered by <a href="https://dieghernan.github.io/chulapa"> <span class="chulapa">Chulapa</span> Jekyll Theme</a></p -->
           <!-- End  attributions -->
-       </div>
-     </div>
- </div>
+        </div>
+      </div>
+  </div>
 </footer>
 <!-- Footer -->
 <!-- JS, Popper.js, and jQuery -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 	<script src="/assets/js/chulapa_script.js"></script>

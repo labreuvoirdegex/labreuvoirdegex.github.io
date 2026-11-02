@@ -2,11 +2,11 @@
 <html lang="en-US">
 <head>
     <meta charset="utf-8">
-    <!-- Chulapa Jekyll Theme - v2.1.0 -->
+    <!-- Chulapa Jekyll Theme - v2.2.1 (development) -->
     <!-- MIT License -->
     <!-- Docs: https://dieghernan.github.io/chulapa -->
     <!-- Repo: https://github.com/dieghernan/chulapa -->
-    <!-- Page build 2026-10-09 -->
+    <!-- Page build 2026-11-02 -->
     <!-- Jekyll Version 4.4.1 -->
     <!-- Google structured data -->
     <script type="application/ld+json">
@@ -14,16 +14,21 @@
         "@context": "https://schema.org",
         "@type": "WebPage",
         "@id": "http://localhost:4000/blog/page2/",
+        "isPartOf": {"@id": "http://localhost:4000/#website"},
+        "breadcrumb": {"@id": "http://localhost:4000/blog/page2/#breadcrumb"},
         "name": "Blog",
         "description": "News and updates - Latest news",
+        "inLanguage": "en-US",
         "headline": "Blog",
         "image": "http://localhost:4000/assets/img/site/banner-blog.png",
         "author": {
           "@type": "Person",
+          "@id": "http://localhost:4000/#author",
           "name": "Joan Llobera"
         },
         "publisher": {
           "@type": "Organization",
+          "@id": "http://localhost:4000/#publisher",
           "name": "Joan Llobera",
           "url": "http://localhost:4000/",
           "logo": {
@@ -58,6 +63,7 @@
       {
         "@context": "https://schema.org",
         "@type": "Person",
+        "@id": "http://localhost:4000/#author",
         "homeLocation": {
           "@type": "Place",
           "name": "Gex, France"
@@ -65,6 +71,16 @@
         "description": "Publisher",
         "name": "Joan Llobera",
         "url": "http://localhost:4000/"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "http://localhost:4000/#website",
+        "url": "http://localhost:4000/",
+        "name": "L'abreuvoir",
+        "publisher": {"@id": "http://localhost:4000/#publisher"}
       }
     </script>
     <title>Blog | L’abreuvoir</title>
@@ -91,7 +107,7 @@
     <!-- Twitter/X Cards -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:description" content="News and updates - Latest news">
-    <!-- start custom head snippets -->
+<!-- start custom head snippets -->
 <!-- this script is inserted before the css stylesheet -->
 <!-- end custom head snippets -->
     <!-- CSS -->
@@ -109,7 +125,7 @@
     <link id="csshigh" rel="stylesheet" href="http://localhost:4000/assets/css/highlighter.css" >
     <!-- Custom css -->
     <link rel="stylesheet" href="http://localhost:4000/assets/css/custom.css" >
-    <!-- start custom head snippets -->
+<!-- start custom head snippets -->
 <!-- insert favicons. use https://realfavicongenerator.net/ -->
 <!-- end custom head snippets -->
 </head>
@@ -131,7 +147,8 @@
 						<a class="nav-link " href="http://localhost:4000/search">
 							<span class="d-md-none p-0 pr-1">Search</span><i class="fa fa-search" aria-hidden="true"></i><span class="sr-only">Search</span>
 						</a>
-					</li></ul>
+					</li>
+			</ul>
 			</div></div>
 </nav>
 			<div id="chulapa-content" tabindex="-1"></div><!-- Chulapa template for pagination --><header class="text-center header-chulapa"><div class="container-lg mt-2">
@@ -196,21 +213,21 @@
                </ul>
            </nav>
 <!-- Footer -->
- <footer class="footer-chulapa text-center mt-0 pt-3">
-   <div class="container">
-     <div class="row">
-       <div class="col-xl-10 offset-xl-1">
+  <footer class="footer-chulapa text-center mt-0 pt-3">
+    <div class="container">
+      <div class="row">
+        <div class="col-xl-10 offset-xl-1">
         	<p class="chulapa-footer-brand"><!-- p class="mt-2 mb-3">© 2026 Llobera Costa</p -->
           <!-- Do not remove this in order to give  attributions -->
           <!-- p class="chulapa-footer-brand">Powered by <a href="https://dieghernan.github.io/chulapa"> <span class="chulapa">Chulapa</span> Jekyll Theme</a></p -->
           <!-- End  attributions -->
-       </div>
-     </div>
- </div>
+        </div>
+      </div>
+  </div>
 </footer>
 <!-- Footer -->
 <!-- JS, Popper.js, and jQuery -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 	<script src="/assets/js/chulapa_script.js"></script>
